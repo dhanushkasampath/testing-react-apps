@@ -7,7 +7,7 @@ import userEvent from "@testing-library/user-event";//this is an object that hel
 describe('Greeting component', () => {
     test('renders Hello World as a test', () => {
         //Arrange
-        render(<Greeting />);
+        render(<Greeting />);//this renders the entire component tree that is needed
 
         //Act
         //... nothing
